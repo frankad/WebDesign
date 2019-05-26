@@ -1,0 +1,128 @@
+/* Style sheet for the North West Beach Park Website by Fentahun Reta*/
+/* This configures the header, navigation, body, main and footer selectors to display in block*/
+header, nav, main, footer, aside { display: block; }
+/*Configure the body styles withe background color, no marigin, and the specified text color and font*/
+body { margin:0;
+      background-color: #ffffff; 
+	  font-family: Verdana, Arial, sans-serif; 
+ }
+/* configure a style rule for the header element selector with height set to 220 pixels, background image position at the top,
+ padding top and bottom 2px, left and right padding 10px, and serc.jpg as a background image that does not repeat.*/
+ 
+header { background-image: url(serc.jpg);
+         background-position: top;
+         background-repeat: no-repeat;
+         height: 220px;
+         padding: 2px 10px;
+}
+/*This head selector creates the spacing to be double-spacing*/		 
+h1 { margin-top: 0;
+     font-size: 3em;
+     text-align: center;
+	 color: #FF9933;
+     text-shadow: 2px 2px 2px #ffffff;
+ }	
+ 
+ h2 {color: #4B0082; }
+ h3 {color: #4B0082; }
+ /* This id selector sets the text aligned right, top and right padding, font style and size and text color*/
+#tagline { padding-top: 100px;
+        padding-right: 20px;
+	   font-size: .90em;
+	   font-style: italic;
+	   text-align: right;
+	   color: #FFD700 ; }
+	   
+/*Configure a navigation links to float left with width 100px, with padding top 10px and text decoration none*/ 
+nav { text-align: center;
+     float: left;
+     width: 100px;
+	 font-weight: bold;
+	 padding-top: 10px; 
+ }	  
+/* Configure the anchor	tags in	the	nav element to have 15 pixels of padding and display no underline.*/ 
+nav a { text-decoration: none;
+       padding-bottom: 15px; }
+/* unordered list elements in the nav element and eliminate the list marker*/	   
+nav ul { list-style-type: none;}
+
+/*Configure the :link, :visited, and :hover pseudo-classes. The nav element to display a golden color 
+text for unvisted hyperlinks, blue color text for visted hyperlinks in response to the mouse action and hovering*/
+nav  a:link { color: #0099FF; }
+nav a:visited { color: #ffd700; }
+nav a:hover { color: #3333cc; }
+/* designed to float to the right of the browser window. Configure a width of 200 pixels.*/
+aside { float: right;
+        width: 200px; }
+		
+/* This id selector set the image to float to the right with padding top 15px*/
+#floatright { float: right;
+padding-top: 15px;
+}
+
+/*
+.clearleft {clear: right; } */
+
+/* This main selector sets main section with padding, margin, background color and text color */	  
+main { /* for Internet Explorer version 10 and below */
+       padding: 15px 30px 50px 30px; 
+       margin: 0 0 0 160px;
+        background-color: #498a49;
+        color: #000000; }
+/* This creates the formatting for the footer area with the background color, text color, font, text align, italic style and display block*/
+footer { background-color: #0080ff;
+		 font-size: .70em;
+         text-align: center;
+         color: #FFD700;
+         padding-top: 50px;
+		 padding-bottom: 20px;
+         clear: both; 
+		 border-top: 1px solid #330000;
+}	
+
+/* This id selector set to center the entire contents of the web page within a browser viewport */
+#wrapper { background-color: #009933 ;
+		min-width: 700px;
+		max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+		 color: #330000;
+        width: 80%; 
+		box-shadow: 0px 0px 1px 0px #333333; }
+	
+figcaption { text-align: center; /* make a figure caption*/
+             font-family:Arial, sans-serif, fantasy; 
+			 color: #330000;
+			 font-size: 1.20em;} 
+			 
+			 
+form { background-color:#eaeaea;
+	font-family: Arial, sans-serif;
+    padding: 10px;	
+	max-width: 300px; }
+label { float: left;
+	width: 100px; 
+	clear: left;
+	text-align: right; 
+	padding-right: 10px;
+	margin-top: 10px; }
+input, textarea { margin-top: 10px; 
+                  display: block;} 
+#mySubmit { margin-left: 110px; }
+
+aside h3 { padding-bottom: 2px;
+           border-bottom: 1px solid #000000;
+           margin: 10px;
+           font-size: 0.90em;
+		   color: #FFD700; }
+.news { font-size: 0.80em;
+        margin: 10px; }	
+		
+		
+nav img { margin: 30px;}
+/*The main content will take up all of the room that is available after the left and right columns float.*/
+main p {margin: 15px; }
+main h2, main h3 { color: #ffd700;
+                   background-color: #bb33ff; } 
+				   
+				   
